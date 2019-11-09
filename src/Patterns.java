@@ -21,7 +21,6 @@ public class Patterns
 			{
 				System.out.print(i);
 			}
-			System.out.println();
 
 		}
 
