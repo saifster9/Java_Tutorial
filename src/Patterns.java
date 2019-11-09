@@ -1,21 +1,28 @@
 /**
- * 
+ * Printing the following pattern:
+ * 1
+ * 12
+ * 123
+ * 1234
+ * 12345
+ * 123456
  */
 
 /**
  * @author saifs
- *
  */
 
 public class Patterns
 {
 
 	/**
-	 * @param args
+	 * Nested Loops int to track the line number. While loop to track the line
+	 * number. For loop to print #s per line
 	 */
+
 	public static void main(String[] args)
 	{
-		int line=1, num=1;
+		int line = 1;
 		
 		while (line <= 6)
 		{
@@ -26,8 +33,5 @@ public class Patterns
 			System.out.println();
 			line++;
 		}
-
-
 	}
-
 }
