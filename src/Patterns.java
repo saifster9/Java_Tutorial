@@ -6,6 +6,7 @@
  * @author saifs
  *
  */
+
 public class Patterns
 {
 
@@ -14,15 +15,18 @@ public class Patterns
 	 */
 	public static void main(String[] args)
 	{
-		for (int i = 1; i <= 6; i++)
+		int line=1, num=1;
+		
+		while (line <= 6)
 		{
-			System.out.print(i);
-			for (i = 1; i <= 2; i++)
+			for (int i = 1; i <= line; i++)
 			{
 				System.out.print(i);
 			}
-
+			System.out.println();
+			line++;
 		}
+
 
 	}
 
